@@ -27,6 +27,12 @@ public:
 		cout << "enter car average speed :" << endl;
 		cin >> av_speed;
 	}
+	void show_data() {
+		cout << "car price is : " << price << endl;
+		cout << "car modal is : " << modal << endl;
+		cout << "car average speed is : " << av_speed<< endl;
+
+	}
 	
 };
 
